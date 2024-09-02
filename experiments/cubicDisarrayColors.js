@@ -46,6 +46,7 @@ function createCubes() {
       translate(i + translateAmtX + offset, j + translateAmtY + offset); 
       rotate(rotateAmt); 
       rectMode(CENTER); 
+      fill(r, g, b);
       strokeWeight(2);
       rect(0, 0, squareSize, squareSize); 
       pop(); 
