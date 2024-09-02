@@ -3,5 +3,15 @@
     "file": "experiments/example.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+  {
+    "file": "experiments/cubicDisarray.js",
+    "name": "Cubic Disarray",
+    "description": "Georg Nee's artwork was the inspiration. I transposed the code of the generative artistry to p5 for this example and added a slider (switch), to displace the cubes."
+  },
+  {
+    "file": "experiments/weirdCircle.js",
+    "name": "Perlin Noise Cirlce",
+    "description": "The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   }
 ]
