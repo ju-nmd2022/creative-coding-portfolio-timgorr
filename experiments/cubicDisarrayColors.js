@@ -7,13 +7,14 @@ let rotationSlider;
 function setup() {
   createCanvas(size, size); 
   rotationSlider = createSlider(0, 1, 0, 1);
+  rotationSlider.position(0, window.innerHeight / 2);
   rotationSlider.addClass('rotationSlider');
   let sliderLabel = createP('Displacement-Switch');
-   sliderLabel.position(10,50); 
+   sliderLabel.position(10,window.innerHeight / 2); 
   sliderLabel.style('font-family', 'Arial');
   sliderLabel.style('font-size', '16px');
   sliderLabel.style('color', '#333');
-  noLoop(); 
+  noLoop();     
 }
 
 function createCubes() {

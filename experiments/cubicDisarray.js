@@ -8,8 +8,9 @@ function setup() {
   createCanvas(size, size); 
   rotationSlider = createSlider(0, 1, 0, 1);
   rotationSlider.addClass('rotationSlider');
+  rotationSlider.position(8, window.innerHeight / 2)
   let sliderLabel = createP('Displacement-Switch');
-  // sliderLabel.position(0,40); 
+  sliderLabel.position(10,window.innerHeight / 2); 
   sliderLabel.style('font-family', 'Arial');
   sliderLabel.style('font-size', '16px');
   sliderLabel.style('color', '#333');
