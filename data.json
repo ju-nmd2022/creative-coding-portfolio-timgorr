@@ -1,10 +1,5 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  },
-  {
     "file": "experiments/cubicDisarray.js",
     "name": "Cubic Disarray",
     "description": "Georg Nee's artwork was the inspiration. I transposed the code of the generative artistry to p5 for this example and added a slider (switch), to displace the cubes."
