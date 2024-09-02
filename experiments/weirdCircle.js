@@ -6,7 +6,7 @@ function setup() {
     let cnv = createCanvas(800, 800);
     slider = createSlider(0, 30, 0, 0.2);
     let sliderLabel = createP('Chaos Range Slider (click on canvas to play sound)');
-    // sliderLabel.position(137,785); 
+    sliderLabel.position(10,40); 
     sliderLabel.style('font-family', 'Arial');
     sliderLabel.style('font-size', '16px');
     sliderLabel.style('color', '#333');

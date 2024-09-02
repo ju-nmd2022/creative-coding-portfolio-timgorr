@@ -9,7 +9,7 @@ function setup() {
   rotationSlider = createSlider(0, 1, 0, 1);
   rotationSlider.addClass('rotationSlider');
   let sliderLabel = createP('Displacement-Switch');
-  // sliderLabel.position(55,385); 
+  // sliderLabel.position(0,40); 
   sliderLabel.style('font-family', 'Arial');
   sliderLabel.style('font-size', '16px');
   sliderLabel.style('color', '#333');
