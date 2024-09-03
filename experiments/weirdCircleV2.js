@@ -16,13 +16,14 @@ function setup() {
 }
 
 function draw() {
+
     // background(0);
     translate(width / 2, height / 2);
     stroke(0);
 
     
+
     noiseMax = slider.value(); 
-    
     beginShape();
     for (let a = 0; a < TWO_PI; a += 0.05) {
         let xoff = map(cos(a), -1, 1, 0, noiseMax);
