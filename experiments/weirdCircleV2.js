@@ -32,9 +32,9 @@ function draw() {
         let y = r * sin(a);
         vertex(x, y);
 
-        let r1 = random(100, 255); 
-        let g = random(100, 255); 
-        let b = random(100, 255); 
+        let r1 = (100); 
+        let g = (100); 
+        let b = map(0, 100,255,0,noiseMax); 
 
     fill(r1,g,b);
         
