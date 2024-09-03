@@ -20,11 +20,6 @@ function draw() {
     translate(width / 2, height / 2);
     stroke(255);
 
-    let r = random(100, 255); 
-    let g = random(100, 255); 
-    let b = random(100, 255); 
-
-    fill(r,g,b);
     
     noiseMax = slider.value(); 
     
@@ -36,6 +31,12 @@ function draw() {
         let x = r * cos(a);
         let y = r * sin(a);
         vertex(x, y);
+
+        let r1 = random(100, 255); 
+        let g = random(100, 255); 
+        let b = random(100, 255); 
+
+    fill(r1,g,b);
         
         if (playing) {
           
