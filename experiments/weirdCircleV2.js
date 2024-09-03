@@ -30,13 +30,16 @@ function draw() {
         let r = map(noise(xoff, yoff), 0, 1, 50, 350);
         let x = r * cos(a);
         let y = r * sin(a);
+
+        let r1 = map(0, 100,255,0,noiseMax); 
+        let g = (100); 
+        let b = (100);
+
+        fill(r1,g,b);
+        
         vertex(x, y);
 
-        let r1 = (100); 
-        let g = (100); 
-        let b = map(0, 100,255,0,noiseMax); 
-
-    fill(r1,g,b);
+    
         
         if (playing) {
           
