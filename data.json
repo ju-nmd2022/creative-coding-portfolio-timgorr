@@ -11,17 +11,17 @@
   },
   {
     "file": "experiments/weirdCircle.js",
-    "name": "Perlin Noise Cirlce",
+    "name": "Perlin Noise Circle",
     "description": "The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   },
   {
     "file": "experiments/weirdCircleV1.js",
-    "name": "Perlin Noise Cirlce Filled",
+    "name": "Perlin Noise Circle Filled",
     "description": "Filled Variation with Alpha set. The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   },
   {
     "file": "experiments/weirdCircleV2.js",
-    "name": "Perlin Noise Cirlce Colored and Circle Stays",
+    "name": "Perlin Noise Circle Colored and Circle Stays",
     "description": "Filled and Colored Variation with Alpha set. The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   }
 ]
