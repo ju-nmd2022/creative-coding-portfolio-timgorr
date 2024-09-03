@@ -54,5 +54,5 @@ function draw() {
 }
 
 function mouseReleased() {
-  redraw(); // Redraw when the mouse is released
+  redraw();
 }

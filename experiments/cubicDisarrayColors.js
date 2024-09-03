@@ -21,7 +21,6 @@ function createCubes() {
   let rotateMultiplier = rotationSlider.value(); 
   clear(); 
   
-
   for (let i = squareSize; i <= size - squareSize; i += squareSize) {
     for (let j = squareSize; j <= size - squareSize; j += squareSize) {
       
@@ -59,5 +58,5 @@ function draw() {
 }
 
 function mouseReleased() {
-  redraw(); // Redraw when the mouse is released
+  redraw();
 }
