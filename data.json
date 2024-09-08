@@ -23,5 +23,35 @@
     "file": "experiments/weirdCircleV2.js",
     "name": "Perlin Noise Circle Colored and Circle Stays",
     "description": "Filled and Colored Variation with Alpha set. The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
+  },
+  {
+    "file": "experiments/flowfield1.js",
+    "name": "Party Snakes",
+    "description": "Code inspired by the coding train and barnie."
+  },
+  {
+    "file": "experiments/flowfield2.js",
+    "name": "Blurry Party Stripes",
+    "description": "Simple variation of the party snakes."
+  },
+  {
+    "file": "experiments/flowfield3.js",
+    "name": "Zoomt Party Snakes",
+    "description": "Accidentally created this nice effect."
+  },
+  {
+    "file": "experiments/flowfield4.js",
+    "name": "Flow Mass",
+    "description": "2 Vectors close to each other. Edited code of Daniel Shiffmann."
+  },
+  {
+    "file": "experiments/flowfield5.js",
+    "name": "Follow the Mouse",
+    "description": "I combined code by Daniel Shiffmann and Barney Codes. I had the idea, to make the particles follow the mouse."
+  },
+  {
+    "file": "experiments/flowfield6.js",
+    "name": "Green Garden",
+    "description": "Perlin Noisy Green Flowfield Garden."
   }
 ]
