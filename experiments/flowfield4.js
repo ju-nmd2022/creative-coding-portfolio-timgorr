@@ -13,7 +13,7 @@ var flowfield;
 let stopMoving = false;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(innerWidth, innerHeight);
   cols = floor(width / scl);
   rows = floor(height / scl);
   fr = createP('');

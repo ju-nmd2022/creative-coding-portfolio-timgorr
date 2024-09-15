@@ -10,7 +10,7 @@ speedLimit = 0.01;
 let zoff = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(innerWidth, innerHeight);
   for (let i = 0; i < num; i++) {
     let particle = {
       pos: createVector(random(width), random(height)),
@@ -21,8 +21,8 @@ function setup() {
     particles.push(particle);
   }
   // let r = millis() * 50;
-  // let g = map(cos(millis() * 0.01), -1, 1, 50, 150);  // Muted green range
-  // let b = map(sin(millis() * 0.2), -1, 1, 50, 150);  // Muted blue range
+  // let g = map(cos(millis() * 0.01), -1, 1, 50, 150);  
+  // let b = map(sin(millis() * 0.2), -1, 1, 50, 150);  
   // stroke(r,g,b, 200);
   blendMode(DIFFERENCE);
   strokeWeight(5 - ( millis() * 100.5));

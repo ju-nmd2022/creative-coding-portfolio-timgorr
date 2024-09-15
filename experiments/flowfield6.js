@@ -10,7 +10,7 @@ speedLimit = 1;
 let zoff = 0;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(innerWidth, innerHeight);
   for (let i = 0; i < num; i++) {
     let particle = {
       pos: createVector(random(width), random(height)),

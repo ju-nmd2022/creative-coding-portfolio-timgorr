@@ -53,5 +53,11 @@
     "file": "experiments/flowfield6.js",
     "name": "Green Garden",
     "description": "Perlin Noisy Green Flowfield Garden."
+  },
+  {
+    "file": "experiments/flowfield4try.js",
+    "name": "Flow Mass",
+    "description": "2 Vectors close to each other. Edited code of Daniel Shiffmann."
   }
+
 ]

@@ -16,7 +16,7 @@ let target;
 let stopMoving = false;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(innerWidth, innerHeight);
   cols = floor(width / scl);
   rows = floor(height / scl);
   fr = createP('');
@@ -61,7 +61,7 @@ if(!stopMoving) {
     particles[i].edges();
     particles[i].show();
   }
-if(frameCount % 1000 == 0) {
+if(frameCount % 1400 == 0) {
     stopMoving = true;
     noLoop();
   }
