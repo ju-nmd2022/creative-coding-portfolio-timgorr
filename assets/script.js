@@ -38,11 +38,11 @@ function goToExperiment(index) {
   p5script.defer = true;
   bodyElement.appendChild(p5script);
 
-  const p5Soundscript = document.createElement("script");
-  p5Soundscript.type = "text/javascript";
-  p5Soundscript.src = "assets/p5.sound.min.js";
-  p5Soundscript.defer = true;
-  bodyElement.appendChild(p5Soundscript);
+  // const p5Soundscript = document.createElement("script");
+  // p5Soundscript.type = "text/javascript";
+  // p5Soundscript.src = "assets/p5.sound.min.js";
+  // p5Soundscript.defer = true;
+  // bodyElement.appendChild(p5Soundscript);
 
   const toneScript = document.createElement("script");
   toneScript.type = "text/javascript";

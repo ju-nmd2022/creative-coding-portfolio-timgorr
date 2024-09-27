@@ -11,17 +11,17 @@
   },
   {
     "file": "experiments/weirdCircle.js",
-    "name": "Perlin Noise Circle",
+    "name": "Perlin Noise Circle (Tone was done with p5.sound and its colliding with my tone.js code so i had to disable it for now)",
     "description": "The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   },
   {
     "file": "experiments/weirdCircleV1.js",
-    "name": "Perlin Noise Circle Filled",
+    "name": "Perlin Noise Circle Filled (Tone was done with p5.sound and its colliding with my tone.js code so i had to disable it for now)",
     "description": "Filled Variation with Alpha set. The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   },
   {
     "file": "experiments/weirdCircleV2.js",
-    "name": "Perlin Noise Circle Colored and Circle Stays",
+    "name": "Perlin Noise Circle Colored and Circle Stays (Tone was done with p5.sound and its colliding with my tone.js code so i had to disable it for now)",
     "description": "Filled and Colored Variation with Alpha set. The Coding Train created a Perlin Noise loop, which inspired me. I added an Oscillator because I thought, to hear the sin Wave would make an amazing effect. At this point, I could only change the frequency with the r value."
   },
   {
@@ -58,6 +58,11 @@
     "file": "experiments/flowfield4try.js",
     "name": "Flow Mass",
     "description": "2 Vectors close to each other. Edited code of Daniel Shiffmann."
+  },
+  {
+    "file": "experiments/field5tone.js",
+    "name": "Lonely in Space",
+    "description": "Hidden vector in the middle, one following mouse. Click picture for Music. Edited code of Daniel Shiffmann and Barney Codes. Edited Version of Follow the Mouse."
   }
 
 ]
