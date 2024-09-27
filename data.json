@@ -1,4 +1,10 @@
 [
+  
+  {
+    "file": "experiments/field5tone.js",
+    "name": "Lonely in Space (Tonely in Space)",
+    "description": "Hidden vector in the middle, one following mouse. Click picture for Music. Edited code of Daniel Shiffmann and Barney Codes. Edited Version of Follow the Mouse."
+  },
   {
     "file": "experiments/cubicDisarray.js",
     "name": "Cubic Disarray",
@@ -58,11 +64,6 @@
     "file": "experiments/flowfield4try.js",
     "name": "Flow Mass",
     "description": "2 Vectors close to each other. Edited code of Daniel Shiffmann."
-  },
-  {
-    "file": "experiments/field5tone.js",
-    "name": "Lonely in Space",
-    "description": "Hidden vector in the middle, one following mouse. Click picture for Music. Edited code of Daniel Shiffmann and Barney Codes. Edited Version of Follow the Mouse."
   }
 
 ]
