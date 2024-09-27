@@ -1,5 +1,5 @@
 particles = [];
-const num = 400;
+const num = 800;
 let vel = 0.01;
 let inc = 0.1;
 let stopMoving = false;
